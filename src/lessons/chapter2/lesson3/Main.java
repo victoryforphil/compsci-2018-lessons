@@ -28,18 +28,25 @@ public class Main {
             nums[i] = Float.parseFloat(JOptionPane.showInputDialog("Enter number #" + (i+1)));
 
             // Process and update result
-            sum += nums[i];
-            dif -= nums[i];
-            pro *= nums[i];
+            if(i==0){ // If first number just set the vars to the value, avoid issues like subtracting from 0 and multiplying from 0
+                sum = nums[i];
+                dif = nums[i];
+                pro = nums[i];
+            }else{ // Process the numbers as usual;
+                sum += nums[i];
+                dif -= nums[i];
+                pro *= nums[i];
+            }
         }
-
-        JOptionPane.showMessageDialog(null, "Sum, Diffrence,: " + avg);
+        //Show Final Answers
+        JOptionPane.showMessageDialog(null, "Sum, Diffrence, Product: " + sum +" " + dif + " " + pro);
     }
 
 }
 
 //Results:
 /*
-
-   x
+Dialog asks for number #1.
+Dialog asks for number #2.
+Dialog shows the sum, dif, and pro correctly.
  */
