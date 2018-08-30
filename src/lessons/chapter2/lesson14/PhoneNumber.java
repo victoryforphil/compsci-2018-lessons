@@ -61,13 +61,13 @@ public class PhoneNumber {
     private static int[] GetRandomIntUnderSum(int count, int max){
         Random rnd = new Random();
         // Make array for the results using max param
-        int results = int[max];
+        int[] results = new int[count];
         
         //Total sum of the array
         int totalSum = 0;
         
         //Generate array
-        for(int i=0;i<max;i++){
+        for(int i=0;i<count;i++){
             results[i] =  rnd.nextInt(10);
             totalSum += results[i];
         }
