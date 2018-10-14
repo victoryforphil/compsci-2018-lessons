@@ -17,6 +17,20 @@ public class PairOfDice {
         }
     }
 
+    //Get if one of the dice is a value
+    public boolean oneIs(int value){
+        return dice[0].getResult() == value || dice[1].getResult() == value;
+    }
+
+    public boolean bothAre(int value){
+        return dice[0].getResult() == value && dice[1].getResult() == value;
+    }
+
+    //Get combined values
+    public int getCombinedValues(){
+        return dice[0].getResult() + dice[1].getResult();
+    }
+
     //Get if the dice are the same
     public boolean isSame(){
         return dice[0].getResult() == dice[1].getResult();
