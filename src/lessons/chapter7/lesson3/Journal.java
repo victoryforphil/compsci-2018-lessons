@@ -8,11 +8,11 @@ public class Journal extends Reading {
 
     @Override
     public String[] getAuthors() {
-        return new String[]{"Elon Musk", "Dean Kamen", "Mrs.Swing", "Not Steve Jobs"};
+        return new String[]{"Ruiz"};
     }
 
     @Override
     public String getTitle() {
-        return "How to make something actually useful";
+        return "Journal of stuff i dont get";
     }
 }

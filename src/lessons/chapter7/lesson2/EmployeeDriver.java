@@ -20,3 +20,18 @@ public class EmployeeDriver {
         }
     }
 }
+//Output
+/*
+Employee: Managed
+Managed
+Employee: Doctor
+Saw the patient.
+Employee: Janitor
+Clean stuff
+Employee: Receptionist
+Answered the phone
+Employee: Nurse
+Got info from the patient.
+Employee: Surgeon
+Cut Stuff
+ */

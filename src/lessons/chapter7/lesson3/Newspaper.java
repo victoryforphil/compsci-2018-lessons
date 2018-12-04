@@ -1,6 +1,6 @@
 package lessons.chapter7.lesson3;
 
-public class Newspaper {
+public class Newspaper extends Reading {
     @Override
     public int getPageCount() {
         return 1111;
@@ -8,11 +8,11 @@ public class Newspaper {
 
     @Override
     public String[] getAuthors() {
-        return new String[]{"Elon Musk", "Dean Kamen", "Mrs.Swing", "Not Steve Jobs"};
+        return new String[]{"CNN"};
     }
 
     @Override
     public String getTitle() {
-        return "How to make something actually useful";
+        return "Please buy us fake news";
     }
 }
