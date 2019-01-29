@@ -2,415 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67410e69-48a7-4557-95bf-7ff39209436f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lessons/chapter8/lesson9/PascalTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons/chapter9/lesson3/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/Chapter1Lesson1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/Chapter1Lesson2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/Chapter1Lesson3.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/Chapter1Lesson6.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/VoicemodSetup.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/compsci-2018-lessons_Complexity.java at master · victoryforphil_compsci-2018-lessons.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/compsci-2018-lessons_Dialog.java at master · victoryforphil_compsci-2018-lessons.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/compsci-2018-lessons_Magpie2.java at master · victoryforphil_compsci-2018-lessons.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/compsci-2018-lessons_Magpie3.java at master · victoryforphil_compsci-2018-lessons.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/compsci-2018-lessons_Magpie4.java at master · victoryforphil_compsci-2018-lessons.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/compsci-2018-lessons_Priorty.java at master · victoryforphil_compsci-2018-lessons.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/compsci-2018-lessons_Task.java at master · victoryforphil_compsci-2018-lessons.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/compsci-2018-lessons_TaskDriver.java at master · victoryforphil_compsci-2018-lessons.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act1/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/elevens/act1/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act1/CardTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/elevens/act1/CardTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/CardGameGUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/Deck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/ElevensBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/ElevensGUIRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/10clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/10clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/10diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/10diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/10hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/10heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/10spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/10spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/2clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/2clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/2diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/2diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/2hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/2heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/2spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/2spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/3clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/3clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/3diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/3diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/3hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/3heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/3spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/3spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/4clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/4clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/4diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/4diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/4hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/4heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/4spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/4spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/5clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/5clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/5diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/5diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/5hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/5heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/5spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/5spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/6clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/6clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/6diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/6diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/6hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/6heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/6spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/6spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/7clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/7clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/7diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/7diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/7hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/7heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/7spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/7spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/8clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/8clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/8diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/8diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/8hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/8heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/8spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/8spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/9clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/9clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/9diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/9diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/9hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/9heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/9spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/9spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/JO.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/JOS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/aceclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/aceclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/acediamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/acediamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/acehearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/aceheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/acespades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/acespadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/back1.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/jackclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/jackclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/jackdiamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/jackdiamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/jackhearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/jackheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/jackspades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/jackspadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/kingclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/kingclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/kingdiamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/kingdiamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/kinghearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/kingheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/kingspades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/kingspadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/queenclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/queenclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/queendiamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/queendiamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/queenhearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/queenheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/queenspades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act10/cards/queenspadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/CardGameGUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/Deck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/Deck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/ElevensBoard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/ElevensBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/ElevensGUIRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/ElevensSimulation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/ThirteensBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/ThirteensGUIRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/ThirteensSimulation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/10clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/10clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/10diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/10diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/10hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/10heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/10spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/10spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/2clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/2clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/2diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/2diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/2hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/2heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/2spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/2spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/3clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/3clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/3diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/3diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/3hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/3heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/3spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/3spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/4clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/4clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/4diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/4diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/4hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/4heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/4spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/4spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/5clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/5clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/5diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/5diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/5hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/5heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/5spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/5spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/6clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/6clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/6diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/6diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/6hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/6heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/6spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/6spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/7clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/7clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/7diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/7diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/7hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/7heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/7spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/7spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/8clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/8clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/8diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/8diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/8hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/8heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/8spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/8spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/9clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/9clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/9diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/9diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/9hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/9heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/9spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/9spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/JO.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/JOS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/aceclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/aceclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/acediamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/acediamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/acehearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/aceheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/acespades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/acespadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/back1.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/jackclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/jackclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/jackdiamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/jackdiamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/jackhearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/jackheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/jackspades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/jackspadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/kingclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/kingclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/kingdiamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/kingdiamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/kinghearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/kingheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/kingspades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/kingspadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/queenclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/queenclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/queendiamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/queendiamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/queenhearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/queenheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/queenspades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act11/cards/queenspadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act2/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/elevens/act2/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act2/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/elevens/act2/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act2/DeckTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/elevens/act2/DeckTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act3/Shuffler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act4/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act4/Deck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act4/DeckTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy1/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy1/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy1/Deck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy1/DeckTester.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy1/DeckTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy1/DeckTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy2/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy2/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy2/Deck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy2/DeckTester.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy2/DeckTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy2/DeckTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy3/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy3/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy3/Deck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy3/DeckTester.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy3/DeckTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy3/DeckTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy4/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy4/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy4/Deck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy4/DeckTester.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy4/DeckTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy4/DeckTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy5/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy5/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy5/Deck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy5/Deck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy5/DeckTester.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy5/DeckTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act5/Buggy5/DeckTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act7/ElevensBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act8/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act8/ElevensBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/CardGameGUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/Deck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/ElevensBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/ElevensGUIRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/10clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/10clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/10diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/10diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/10hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/10heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/10spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/10spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/2clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/2clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/2diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/2diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/2hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/2heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/2spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/2spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/3clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/3clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/3diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/3diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/3hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/3heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/3spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/3spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/4clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/4clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/4diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/4diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/4hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/4heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/4spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/4spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/5clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/5clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/5diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/5diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/5hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/5heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/5spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/5spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/6clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/6clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/6diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/6diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/6hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/6heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/6spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/6spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/7clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/7clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/7diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/7diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/7hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/7heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/7spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/7spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/8clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/8clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/8diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/8diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/8hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/8heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/8spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/8spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/9clubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/9clubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/9diamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/9diamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/9hearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/9heartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/9spades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/9spadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/JO.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/JOS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/aceclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/aceclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/acediamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/acediamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/acehearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/aceheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/acespades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/acespadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/back1.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/jackclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/jackclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/jackdiamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/jackdiamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/jackhearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/jackheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/jackspades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/jackspadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/kingclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/kingclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/kingdiamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/kingdiamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/kinghearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/kingheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/kingspades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/kingspadesS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/queenclubs.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/queenclubsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/queendiamonds.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/queendiamondsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/queenhearts.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/queenheartsS.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/queenspades.GIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/elevens/act9/cards/queenspadesS.GIF" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -433,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lessons/chapter8/lesson9/PascalTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="637">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lessons/chapter9/lesson3/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -505,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/projects/elevens/act7/Card.java" />
         <option value="$PROJECT_DIR$/src/projects/elevens/act7/ElevensBoard.java" />
         <option value="$PROJECT_DIR$/src/lessons/chapter8/lesson9/PascalTriangle.java" />
+        <option value="$PROJECT_DIR$/src/lessons/chapter9/lesson3/SelectionSort.java" />
       </list>
     </option>
   </component>
@@ -519,8 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -544,27 +145,7 @@
               <item name="compsci-2018-lessons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compsci-2018-lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compsci-2018-lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compsci-2018-lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compsci-2018-lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compsci-2018-lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compsci-2018-lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="elevens" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="compsci-2018-lessons" type="b2602c69:ProjectViewProjectNode" />
@@ -581,12 +162,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548355069273" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548790761531" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -611,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PascalTriangle">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="CardTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="projects.elevens.act1.CardTester" />
       <module name="compsci-2018-lessons" />
@@ -651,8 +234,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.chapter9.lesson3.SelectionSort" />
+      <module name="compsci-2018-lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessons.chapter9.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.DeckTester" />
         <item itemvalue="Application.CardTester" />
@@ -676,18 +273,20 @@
       <workItem from="1547661334883" duration="2815000" />
       <workItem from="1548185002439" duration="973000" />
       <workItem from="1548266186080" duration="1068000" />
-      <workItem from="1548352919110" duration="2143000" />
+      <workItem from="1548352919110" duration="2281000" />
+      <workItem from="1548698361331" duration="510000" />
+      <workItem from="1548789728116" duration="989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14328000" />
+    <option name="totallyTimeSpent" value="15965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.21801706" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.1881663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -729,6 +328,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/elevens/act7/Card.java" />
+    <entry file="file://$PROJECT_DIR$/src/projects/elevens/act7/ElevensBoard.java" />
+    <entry file="file://$PROJECT_DIR$/src/projects/elevens/act2/DeckTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/act8/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
@@ -741,13 +349,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/act4/Card.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/elevens/act7/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/elevens/act2/Card.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -766,24 +367,17 @@
     <entry file="file://$PROJECT_DIR$/src/projects/elevens/act2/Questions.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/elevens/act7/ElevensBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/elevens/act2/DeckTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lessons/chapter8/lesson9/PascalTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="637">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/chapter9/lesson3/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
         </state>
       </provider>
     </entry>
