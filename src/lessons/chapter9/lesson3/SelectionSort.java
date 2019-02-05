@@ -44,5 +44,5 @@ public class SelectionSort
 }
 /*
 1 1041 12 25 55
-1 12 25 55 1041 
+1 12 25 55 1041
  */
