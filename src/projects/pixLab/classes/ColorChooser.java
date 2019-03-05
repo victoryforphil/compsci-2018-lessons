@@ -1,3 +1,4 @@
+package projects.pixLab.classes;
 import javax.swing.JColorChooser;
 import javax.swing.JFrame;
 import java.awt.Color;
@@ -9,7 +10,7 @@ import java.awt.Color;
  * 
  * @author Barb Ericson ericson@cc.gatech.edu
  */
-public class ColorChooser 
+public class ColorChooser
 {
   
   /**

@@ -1,4 +1,4 @@
-
+package projects.pixLab.classes;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;

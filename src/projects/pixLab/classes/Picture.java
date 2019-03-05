@@ -1,3 +1,4 @@
+package projects.pixLab.classes;
 import java.awt.*;
 import java.awt.font.*;
 import java.awt.geom.*;
@@ -13,7 +14,7 @@ import java.util.List; // resolves problem with java.awt.List and java.util.List
  * 
  * @author Barbara Ericson ericson@cc.gatech.edu
  */
-public class Picture extends SimplePicture 
+public class   Picture extends SimplePicture
 {
   ///////////////////// constructors //////////////////////////////////
   
@@ -97,6 +98,48 @@ public class Picture extends SimplePicture
       }
     }
   }
+
+  public void keepOnlyBlue()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    for (Pixel[] rowArray : pixels)
+    {
+      for (Pixel pixelObj : rowArray)
+      {
+        pixelObj.setRed(0);
+        pixelObj.setGreen(0);
+      }
+    }
+  }
+
+  public void negate()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    for (Pixel[] rowArray : pixels)
+    {
+      for (Pixel pixelObj : rowArray)
+      {
+        pixelObj.setRed(pixelObj.getRed() - 255);
+        pixelObj.setBlue(pixelObj.getBlue() - 255);
+        pixelObj.setGreen(pixelObj.getGreen() - 255);
+      }
+    }
+  }
+
+  public void grayscale()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    for (Pixel[] rowArray : pixels)
+    {
+      for (Pixel pixelObj : rowArray)
+      {
+        int sum = pixelObj.getRed() + pixelObj.getBlue() + pixelObj.getGreen();
+        pixelObj.setRed(sum/3);
+        pixelObj.setBlue(sum/3);
+        pixelObj.setGreen(sum/3);
+      }
+    }
+  }
   
   /** Method that mirrors the picture around a 
     * vertical mirror in the center of the picture
@@ -116,6 +159,57 @@ public class Picture extends SimplePicture
         rightPixel.setColor(leftPixel.getColor());
       }
     } 
+  }
+
+  public void mirrorVerticalRightToLeft()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+    int width = pixels[0].length;
+    for (int row = 0; row < pixels.length; row++)
+    {
+      for (int col = 0; col < width / 2; col++)
+      {
+        rightPixel = pixels[row][col];
+        leftPixel = pixels[row][width - 1 - col];
+        leftPixel.setColor(rightPixel.getColor());
+      }
+    }
+  }
+
+  public void mirrorHorizontal()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    Pixel topPixel = null;
+    Pixel bottomPixel = null;
+    int height = pixels.length;
+    for (int row = 0; row < height / 2; row++)
+    {
+      for (int col = 0; col < pixels[0].length; col++)
+      {
+        topPixel = pixels[row][col];
+        bottomPixel = pixels[height-1-row][col];
+        bottomPixel.setColor(topPixel.getColor());
+      }
+    }
+  }
+
+  public void mirrorHorizontalBotToTop()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    Pixel topPixel = null;
+    Pixel bottomPixel = null;
+    int height = pixels.length;
+    for (int row = 0; row < height / 2; row++)
+    {
+      for (int col = 0; col < pixels[0].length; col++)
+      {
+        bottomPixel = pixels[row][col];
+        topPixel = pixels[height-1-row][col];
+        topPixel.setColor(bottomPixel.getColor());
+      }
+    }
   }
   
   /** Mirror just part of a picture of a temple */
