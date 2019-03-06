@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/Picture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="272" column="24" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="24" />
+            <state relative-caret-position="234">
+              <caret line="407" column="43" selection-start-line="407" selection-start-column="43" selection-end-line="407" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -89,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/PictureTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="66" column="123" selection-start-line="66" selection-start-column="123" selection-end-line="66" selection-end-column="123" />
+            <state relative-caret-position="207">
+              <caret line="99" column="114" selection-start-line="99" selection-start-column="114" selection-end-line="99" selection-end-column="114" />
             </state>
           </provider>
         </entry>
@@ -145,12 +145,12 @@
         <option value="$PROJECT_DIR$/src/projects/pixLab/classes/PictureFrame.java" />
         <option value="$PROJECT_DIR$/src/projects/pixLab/classes/Pixel.java" />
         <option value="$PROJECT_DIR$/src/projects/pixLab/classes/SimplePicture.java" />
-        <option value="$PROJECT_DIR$/src/projects/pixLab/classes/PictureTester.java" />
         <option value="$PROJECT_DIR$/src/projects/pixLab/classes/Picture.java" />
+        <option value="$PROJECT_DIR$/src/projects/pixLab/classes/PictureTester.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-18" />
     <option name="y" value="40" />
     <option name="width" value="1642" />
@@ -205,7 +205,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551895704942" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551896917838" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -327,12 +327,12 @@
       <workItem from="1550166685921" duration="1168000" />
       <workItem from="1550686364415" duration="602000" />
       <workItem from="1551118679452" duration="1660000" />
-      <workItem from="1551817812671" duration="2638000" />
+      <workItem from="1551817812671" duration="3811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25996000" />
+    <option name="totallyTimeSpent" value="27169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -503,17 +503,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/PictureTester.java">
+    <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/Picture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="66" column="123" selection-start-line="66" selection-start-column="123" selection-end-line="66" selection-end-column="123" />
+        <state relative-caret-position="234">
+          <caret line="407" column="43" selection-start-line="407" selection-start-column="43" selection-end-line="407" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/Picture.java">
+    <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/PictureTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="272" column="24" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="24" />
+        <state relative-caret-position="207">
+          <caret line="99" column="114" selection-start-line="99" selection-start-column="114" selection-end-line="99" selection-end-column="114" />
         </state>
       </provider>
     </entry>

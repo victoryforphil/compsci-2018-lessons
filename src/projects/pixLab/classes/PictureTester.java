@@ -77,11 +77,27 @@ public class PictureTester
     canvas.createCollage();
     canvas.explore();
   }
-  
+
+  public static void testMyCollage(){
+  Picture canvas = new Picture("C:\\Users\\Victo\\Documents\\compsci-2018-lessons\\src\\projects\\pixLab\\images\\640x480.jpg");
+  Picture segall = new Picture("C:\\Users\\Victo\\Documents\\compsci-2018-lessons\\src\\projects\\pixLab\\images\\seagull.jpg");
+  Picture temple = new Picture("C:\\Users\\Victo\\Documents\\compsci-2018-lessons\\src\\projects\\pixLab\\images\\temple.jpg");
+
+  canvas.copy(segall, 200,200,300,300);
+    canvas.copy(temple, 120 ,120,200,200);
+  canvas.explore();
+  }
+
+  public static void testCopy()
+  {
+    Picture canvas = new Picture("C:\\Users\\Victo\\Documents\\compsci-2018-lessons\\src\\projects\\pixLab\\images\\seagull.jpg");
+    canvas.copy(canvas, 30,30, 80,80);
+    canvas.explore();
+  }
   /** Method to test edgeDetection */
   public static void testEdgeDetection()
   {
-    Picture swan = new Picture("swan.jpg");
+    Picture swan = new Picture("C:\\Users\\Victo\\Documents\\compsci-2018-lessons\\src\\projects\\pixLab\\images\\swan.jpg");
     swan.edgeDetection(10);
     swan.explore();
   }
@@ -106,11 +122,12 @@ public class PictureTester
    // testMirrorHorizontalBotToTop();
     //testMirrorTemple();
     //testMirrorArms();
-    testMirrorGull();
+    //testMirrorGull();
     //testMirrorDiagonal();
     //testCollage();
-    //testCopy();
-    //testEdgeDetection();
+   // testCopy();
+   // testMyCollage();
+    testEdgeDetection();
     //testEdgeDetection2();
     //testChromakey();
     //testEncodeAndDecode();
