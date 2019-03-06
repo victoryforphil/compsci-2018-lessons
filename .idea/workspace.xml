@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67410e69-48a7-4557-95bf-7ff39209436f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/ColorChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/ColorChooser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/DigitalPicture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/DigitalPicture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/FileChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/FileChooser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/ImageDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/ImageDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/IntArrayWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/IntArrayWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/IntArrayWorkerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/IntArrayWorkerTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/Picture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/PictureExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/PictureExplorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/PictureFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/PictureFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/PictureTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/PictureTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/Pixel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/Pixel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pixLab/classes/SimplePicture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pixLab/classes/SimplePicture.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/Picture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="197" column="38" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="38" />
+            <state relative-caret-position="115">
+              <caret line="272" column="24" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -100,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/PictureTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="91" column="35" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+            <state relative-caret-position="455">
+              <caret line="66" column="123" selection-start-line="66" selection-start-column="123" selection-end-line="66" selection-end-column="123" />
             </state>
           </provider>
         </entry>
@@ -156,8 +145,8 @@
         <option value="$PROJECT_DIR$/src/projects/pixLab/classes/PictureFrame.java" />
         <option value="$PROJECT_DIR$/src/projects/pixLab/classes/Pixel.java" />
         <option value="$PROJECT_DIR$/src/projects/pixLab/classes/SimplePicture.java" />
-        <option value="$PROJECT_DIR$/src/projects/pixLab/classes/Picture.java" />
         <option value="$PROJECT_DIR$/src/projects/pixLab/classes/PictureTester.java" />
+        <option value="$PROJECT_DIR$/src/projects/pixLab/classes/Picture.java" />
       </list>
     </option>
   </component>
@@ -216,7 +205,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551209885951" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551895704942" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -338,18 +327,18 @@
       <workItem from="1550166685921" duration="1168000" />
       <workItem from="1550686364415" duration="602000" />
       <workItem from="1551118679452" duration="1660000" />
-      <workItem from="1551817812671" duration="600000" />
+      <workItem from="1551817812671" duration="2638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23958000" />
+    <option name="totallyTimeSpent" value="25996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.1712" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.1712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -358,7 +347,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5005417" side_tool="true" weight="0.21801706" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3445287" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3445287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/Pixel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/SimplePicture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5818">
@@ -514,17 +496,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/Picture.java">
+    <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/Pixel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="197" column="38" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/PictureTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="91" column="35" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+        <state relative-caret-position="455">
+          <caret line="66" column="123" selection-start-line="66" selection-start-column="123" selection-end-line="66" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/pixLab/classes/Picture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="272" column="24" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="24" />
         </state>
       </provider>
     </entry>

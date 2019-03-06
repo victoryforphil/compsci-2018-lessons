@@ -232,10 +232,70 @@ public class   Picture extends SimplePicture
         rightPixel = pixels[row]                       
                          [mirrorPoint - col + mirrorPoint];
         rightPixel.setColor(leftPixel.getColor());
+        count++;
       }
     }
+
+    System.out.println("Count: " + count); //Count: 18410
+
   }
-  
+
+  public void mirrorArms()
+  {
+    int mirrorPoint = 150;
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+    int count = 0;
+    Pixel[][] pixels = this.getPixels2D();
+
+    // loop through the rows
+    for (int row = 160; row < 200; row++)
+    {
+      // loop from 13 to just before the mirror point
+      for (int col = 100; col < 299; col++)
+      {
+
+        leftPixel = pixels[row][col];
+        rightPixel = pixels[mirrorPoint - row + mirrorPoint +  100]
+                [col];
+        rightPixel.setColor(leftPixel.getColor());
+        count++;
+      }
+    }
+
+    System.out.println("Count: " + count); //Count: 18410
+
+  }
+
+
+  public void mirrorGull()
+  {
+    int mirrorPoint = 330;
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+    int count = 0;
+    Pixel[][] pixels = this.getPixels2D();
+
+    // loop through the rows
+    for (int row = 200; row < 400; row++)
+    {
+      // loop from 13 to just before the mirror point
+      for (int col = 20; col < mirrorPoint; col++)
+      {
+
+        leftPixel = pixels[row][col];
+        rightPixel = pixels[row]
+                [mirrorPoint - col + mirrorPoint];
+        rightPixel.setColor(leftPixel.getColor());
+        count++;
+      }
+    }
+
+    System.out.println("Count: " + count); //Count: 18410
+
+  }
+
+
   /** copy from the passed fromPic to the
     * specified startRow and startCol in the
     * current picture

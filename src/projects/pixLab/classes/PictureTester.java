@@ -50,9 +50,23 @@ public class PictureTester
   /** Method to test mirrorTemple */
   public static void testMirrorTemple()
   {
-    Picture temple = new Picture("temple.jpg");
+    Picture temple = new Picture("C:\\Users\\Victo\\Documents\\compsci-2018-lessons\\src\\projects\\pixLab\\images\\temple.jpg");
     temple.explore();
     temple.mirrorTemple();
+    temple.explore();
+  }
+
+  public static void testMirrorArms(){
+    Picture temple = new Picture("C:\\Users\\Victo\\Documents\\compsci-2018-lessons\\src\\projects\\pixLab\\images\\snowman.jpg");
+    temple.explore();
+    temple.mirrorArms();
+    temple.explore();
+  }
+
+  public static void testMirrorGull(){
+    Picture temple = new Picture("C:\\Users\\Victo\\Documents\\compsci-2018-lessons\\src\\projects\\pixLab\\images\\seagull.jpg");
+    temple.explore();
+    temple.mirrorGull();
     temple.explore();
   }
   
@@ -89,10 +103,10 @@ public class PictureTester
     //testMirrorVertical();
     //testMirrorVerticalRightToLeft();
     //testMirrorHorizontal();
-    testMirrorHorizontalBotToTop();
+   // testMirrorHorizontalBotToTop();
     //testMirrorTemple();
     //testMirrorArms();
-    //testMirrorGull();
+    testMirrorGull();
     //testMirrorDiagonal();
     //testCollage();
     //testCopy();
